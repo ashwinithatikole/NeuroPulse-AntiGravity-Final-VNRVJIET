@@ -1,0 +1,48 @@
+# Xilinx Vivado Professional exclusion list
+# ---------------------------------------------------------------------------
+
+# Build and Temporary Files
+*.log
+*.jou
+*.str
+*.pb
+*.vdi
+*.os
+.Xil/
+vivado*
+*.backup.jou
+*.backup.log
+
+# Simulation and Synthesis Artifacts
+xsim.dir/
+*.sh
+*.tcl
+*.bat
+obj/
+*.bit
+*.bin
+
+# Python Environment and Data (Excluded for Final HW Release)
+__pycache__/
+*.pyc
+*.npy
+*.keras
+*.tflite
+chb01-summary.txt
+chb01_03.edf
+
+# Project Specifics to Keep Clean
+/results/
+4semm/
+Vivado_Import_Guide.txt
+model_data.h
+weights.txt
+extract_weights.py
+quantize_model.py
+data_loader.py
+train_model.py
+model_arch.py
+weight_rom_layer1.v
+mac_unit.v
+relu.v
+tb_mac_unit.v
