@@ -1,11 +1,11 @@
-# NeuroPulse: Edge-AI Seizure Detection (Team AntiGravity)
+# NeuroPulse: Edge-AI Seizure Detection 
 
-## 📌 Project Overview
+##  Project Overview
 NeuroPulse is a high-performance, low-power seizure detection engine designed for real-time edge processing on FPGA. Developed by **Team AntiGravity**, this system implements an optimized 1D-CNN architecture specialized for the CHB-MIT Scalp EEG dataset. Our implementation focuses on achieving ultra-low latency and minimal resource consumption for next-generation wearable medical devices.
 
 ---
 
-## 📊 Performance Metrics (Verified)
+##  Performance Metrics (Verified)
 The following metrics represent the finalized hardware implementation on a Xilinx Zynq-7000 series FPGA.
 
 | Metric | Value |
@@ -50,7 +50,7 @@ The following metrics represent the finalized hardware implementation on a Xilin
 ## 🤝 Team Info
 **T.Ashwini
 R.Tanuja**
-VNR VJIET
+
 
 ---
 
